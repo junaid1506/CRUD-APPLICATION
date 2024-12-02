@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 450;
+}
+
+header {
+  /* padding: 2% 5%; */
+  height: 12vh;
+  background-color: #0077EE;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20%;
+  padding-left: 1%;
+}
+header h1 {
+  color: white;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  color: green;
+}
+.row {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.card {
+  
+  /* color: white; */
+  margin-left: 0.6%;
+  border: 1px solid transparent;
+  width: 24.25%;
+  height: 25vh;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1% 2%;
+  box-shadow: 0px 0px 12px #ccc;
+ border-radius: 8px;
+   
+  
+
+}
+
+.form {
+
+  border: 2px solid black;
+  width: 30%;
+  height: 45vh;
+  margin: 5vh 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 4%;
+  border: 1px solid transparent;
+  width: 24.25%;
+
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1% 2%;
+  box-shadow: 0px 0px 12px #ccc;
+ border-radius: 8px;
+}
+
+button {
+  display: block;
+    width: 100%;
+    font-size: 0.9rem;
+    margin: 8px 0;
+    padding: 10px 0;
+    background-color: #0077EE;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.viewcard {
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  color: black;
+  width: 30%;
+  height: 35vh;
+  margin: 5vh 35%;
+  margin-top: 5vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  justify-content: space-between;
+  padding: 2%;
+  display: flex;
+}
+.img img {
+  height: 30vh;
+}
+.img {
+  /* background-color: red; */
+  width: 20%;
+  margin-right: 30%;
+}
+.detail {
+  /* background-color: green; */
+  width: 110%;
+}
+.form2 {
+  border: 2px solid black;
+  width: 30%;
+  height: 45vh;
+  margin: 5vh 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 4%;
+  border: 1px solid transparent;
+  width: 24.25%;
+
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1% 2%;
+  box-shadow: 0px 0px 12px #ccc;
+ border-radius: 8px;
+}
+.form2 input {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px 4px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.row3{
+  height: 10vh;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.card a {
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+  margin: 8px 0;
+  background-color: #0077EE;
+  color: #fff;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card .delete{
+  background-color: red;
+}
+.form3 {
+ border: 2px solid black;
+  width: 30%;
+  height: 35vh;
+  margin: 5vh 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 4%;
+  border: 1px solid transparent;
+  width: 24.25%;
+
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1% 2%;
+  box-shadow: 0px 0px 12px #ccc;
+ border-radius: 8px;
+}
+
+.form3 h5 {
+  color: red;
+}
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+.form input {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px 4px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
